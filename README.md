@@ -54,8 +54,7 @@ The __images__ folder contains the _filter tables_  and _architecture_ of the ne
 #### ./derivations
 Contains the __handwritten derivations__ of the model from scratch, it forms the basis of the model implementation.
 
-# My Project
-## Overview
+## Architecture Design anf Derivation
 
 <p align="left">
   <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/architecture.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
@@ -71,10 +70,10 @@ Contains the __handwritten derivations__ of the model from scratch, it forms the
   This is the derivation that forms the theoretical foundation of the <strong>BACKPROPAGATION THROUGH TIME</strong> algorithm implemented in this project.
 </p>
 
+
 <p align="left">
-  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/architecture.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
+  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/green_conditions.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
   <br>
    <strong>Filter table of deterministic scenarios</strong><br />
   Once the architecture is setup we analyse different conditions on the data to see how close a neural net model is to a deterministic model. The table shows how samples can be filtered on basis of human rules. The analysis is properly elaborated in the notebooks provided
 </p>
-
