@@ -62,6 +62,7 @@ Contains the __handwritten derivations__ of the model from scratch, it forms the
    <strong>Architechture of the Recurrent Neural Network</strong><br />
   This is the architecture of the recurrent perceptron. A tag can be one of `[OT, NN, JJ, DT]` This is fed into the network as a 1 hot vector. The detailed inplementation can be found in <strong>models</strong> folder. The idea is to design an RNN classifier using the architure above.
 </p>
+<br>
 
 <p align="left">
   <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/der1.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
@@ -69,7 +70,7 @@ Contains the __handwritten derivations__ of the model from scratch, it forms the
    <strong>Backpropagation Through Time derivation</strong><br />
   This is the derivation that forms the theoretical foundation of the <strong>BACKPROPAGATION THROUGH TIME</strong> algorithm implemented in this project.
 </p>
-
+<br>
 
 <p align="left">
   <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/green_conditions.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
