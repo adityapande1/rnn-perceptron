@@ -17,6 +17,13 @@ Once the words are tagged, chunking algorithms group sequences of words into chu
 #### 2. Using RNNs for Noun Chunking
 Recurrent Neural Networks (RNNs) are well-suited for sequential data and can be effectively used for tasks like POS tagging and chunking.__In this project the user is provided with POS tagged data and the model. The RNN takes the sequence of POS tags (and potentially the original words) as input and outputs chunk tags that indicate the boundaries of noun phrases.__
 
+_____________
+## Some Cool Examples
+### Example 1: Sequential Generation of images by model
+![Cool Demo](https://github.com/adityapande1/rnn-perceptron/blob/main/media/gifs/one.gif)
+
+### Example 2 : Sequential Generation of images by model
+![Cool Demo](https://github.com/adityapande1/rnn-perceptron/blob/main/media/gifs/two.gif)
 
  
 ## Features
