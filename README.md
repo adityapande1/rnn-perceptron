@@ -43,7 +43,7 @@ __NOTE__: Please restart the space if prompted
 3. `test.ipynb` file contains the inference procedure for testing the model.
 
 #### ./presentation.pptx
-Containes the presentation of the assignment used during the evaluation.
+Containes the __presentation__ of the assignment used during the evaluation.
 
 #### ./data
 Containes the __cross validation__ , __hyperparameters__ and conditional data __json__ used in different parts of the model training and inference.
