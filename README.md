@@ -47,7 +47,7 @@ Containes the __cross validation__ , __hyperparameters__ and conditional data __
 #### ./media
 Contains some of the __videos__ and __gifs__ obtained from model inference.
 #### ./derivations
-Contains the derivations of the model from scratch, it forms the basis of the model implementation.
+Contains the __handwritten derivations__ of the model from scratch, it forms the basis of the model implementation.
 
 # My Project
 ## Overview
