@@ -54,7 +54,7 @@ The __images__ folder contains the _filter tables_  and _architecture_ of the ne
 #### ./derivations
 Contains the __handwritten derivations__ of the model from scratch, it forms the basis of the model implementation.
 
-## Architecture Design anf Derivation
+## Architecture Design and Derivation
 
 <p align="left">
   <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/architecture.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
