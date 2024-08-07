@@ -48,7 +48,9 @@ Containes the __presentation__ of the assignment used during the evaluation.
 #### ./data
 Containes the __cross validation__ , __hyperparameters__ and conditional data __json__ used in different parts of the model training and inference.
 #### ./media
-Contains some of the __videos__ and __gifs__ obtained from model inference.
+Contains some of the __videos__ and __gifs__ obtained from model inference.<br>
+The __images__ folder contains the _filter tables_  and _architecture_ of the net
+
 #### ./derivations
 Contains the __handwritten derivations__ of the model from scratch, it forms the basis of the model implementation.
 
@@ -56,6 +58,18 @@ Contains the __handwritten derivations__ of the model from scratch, it forms the
 ## Overview
 
 <p align="left">
-  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/all_conditions.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
-  This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.This is an example project that demonstrates how to add an image and text side by side in a GitHub README file. You can describe your project here, its purpose, features, and any other important information.
+  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/architecture.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
+  This is the architecture of the recurrent perceptron. A tag can be one of `[OT, NN, JJ, DT]` This is fed into the network as a 1 hot vector.
+  The detailed inplementation can be found in `models` folder. The idea is to design an RNN classifier using the architure above.
 </p>
+
+<p align="left">
+  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/der1.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
+  This is the derivation that forms the theoritical foundation of __BACK PROPOGATION THROUGH TIME__ algorith implemented in this project.
+</p>
+
+<p align="left">
+  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/green_conditions.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
+  Once the architecture is setup we analyse different conditions on the data to see how close a neural net model is to a deterministic model. The table shows how samples can be filtered on basis of human rules. The analysis is properly elaborated in the notebooks provided
+</p>
+

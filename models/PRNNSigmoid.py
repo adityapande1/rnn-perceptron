@@ -1,5 +1,11 @@
+import os
+import sys
+
 import numpy as np
-from PRNN_utils import tags2sentence, check_conditions
+
+sys.path.append(os.path.abspath('..'))  # Ensure the parent directory of notebooks is in the system path
+from utils.PRNN_utils import check_conditions, tags2sentence
+
 
 class PRNNSigmoid():
 
