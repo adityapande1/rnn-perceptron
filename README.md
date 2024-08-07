@@ -7,16 +7,16 @@ This project is done as a part of course assignment for the course __CS772: Deep
 
 The project aims at performing noun chunking in a corpus given its Part of Speech (POS) tags. The task is achieved using RNN Perceptron and Sigmoid models that are implemented from scratch.
 
-#### Noun Chunking Using POS Tags
+#### 1. Noun Chunking Using POS Tags
 Chunking is a crucial process in Natural Language Processing (NLP) that involves identifying and segmenting multi-token sequences, such as noun phrases, within sentences using Part-Of-Speech (POS) tags. This technique is particularly useful for extracting meaningful units from text, which can be beneficial for various NLP tasks like information retrieval, text summarization, and syntactic parsing.
 
-POS tagging is the first step in the chunking process. It involves labeling each word in a sentence with its corresponding part of speech, such as noun (NN), verb (VB), adjective (JJ), determiner (DT), etc.
+POS tagging is the first step in the chunking process. It involves labeling each word in a sentence with its corresponding part of speech, such as noun (NN), verb (VB), adjective (JJ), determiner (DT), etc.<br>
 For example, in the sentence "The quick brown fox jumps over the lazy dog," POS tagging assigns the following labels: The/DT quick/JJ brown/JJ fox/NN jumps/VBZ over/IN the/DT lazy/JJ dog/NN. These tags provide the foundational information needed for chunking by identifying the grammatical roles of each word in the sentence.
 
 Once the words are tagged, chunking algorithms group sequences of words into chunks based on their POS tags. Noun phrase chunking specifically targets sequences of words that form noun phrases. In the example sentence, a noun phrase chunker would identify and extract "The quick brown fox" and "the lazy dog" as noun phrases. This process helps in isolating and understanding the structure of noun phrases within sentences, facilitating further analysis and processing of the text.
 
-#### Using RNNs for Noun Chunking
-Recurrent Neural Networks (RNNs) are well-suited for sequential data and can be effectively used for tasks like POS tagging and chunking. Here’s how RNNs can be employed for noun chunking. In this project the user is provided with POS tagged data and the model. The RNN takes the sequence of POS tags (and potentially the original words) as input and outputs chunk tags that indicate the boundaries of noun phrases.
+#### 2. Using RNNs for Noun Chunking
+Recurrent Neural Networks (RNNs) are well-suited for sequential data and can be effectively used for tasks like POS tagging and chunking. Here’s how RNNs can be employed for noun chunking. __In this project the user is provided with POS tagged data and the model. The RNN takes the sequence of POS tags (and potentially the original words) as input and outputs chunk tags that indicate the boundaries of noun phrases.__
 
 
  
