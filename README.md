@@ -15,8 +15,7 @@ It involves labeling each word in a sentence with its corresponding part of spee
 Once the words are tagged, chunking algorithms group sequences of words into chunks based on their POS tags. Noun phrase chunking specifically targets sequences of words that form noun phrases. For example sentence, a noun phrase chunker would identify and extract "The quick brown fox" and "the lazy dog" as noun phrases. This process helps in isolating and understanding the structure of noun phrases within sentences, facilitating further analysis and processing of the text.
 
 #### 2. Using RNNs for Noun Chunking
-Recurrent Neural Networks (RNNs) are well-suited for sequential data and can be effectively used for tasks like POS tagging and chunking.<br> 
-__In this project the user is provided with POS tagged data and the model. The RNN takes the sequence of POS tags (and potentially the original words) as input and outputs chunk tags that indicate the boundaries of noun phrases.__
+Recurrent Neural Networks (RNNs) are well-suited for sequential data and can be effectively used for tasks like POS tagging and chunking.__In this project the user is provided with POS tagged data and the model. The RNN takes the sequence of POS tags (and potentially the original words) as input and outputs chunk tags that indicate the boundaries of noun phrases.__
 
 
  
