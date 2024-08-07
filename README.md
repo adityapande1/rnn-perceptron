@@ -27,11 +27,29 @@ __NOTE__: Please restart the space if prompted
 ### Example 2 : Noun Chunking using model
 ![Cool Demo](https://github.com/adityapande1/rnn-perceptron/blob/main/media/gifs/two.gif)
  
-## Features
--Implemenatation of Recurrent Neural Net Perceptron from scratch performing noun chunking
+
+## File Desciption
+#### ./models
+1. `PRNN.py` file contains the Peceptron RNN implementation from scratch
+2. `PRNNSigmoid.py` file contains the Sigmoid RNN implementation from scratch
+
+#### ./utils
+1. `PRNN_utils.py` file contains the Peceptron RNN utils
+2. `PRNNSigmoid.py` file contains the Sigmoid RNN utils
+
+#### ./notebooks
+1. `mainPerceptron.ipynb` file contains all the step by step training and testing of the Perceptron RNN model.
+2. `mainSigmoid.ipynb` file contains all the step by step training and testing of the Sigmoid RNN model.
+3. `test.ipynb` file contains the inference procedure for testing the model.
+
+#### ./data
+Containes the __cross validation__ , __hyperparameters__ and conditional data __json__ used in different parts of the model training and inference.
+#### ./media
+Contains some of the __videos__ and __gifs__ obtained from model inference.
+#### ./derivations
+Contains the derivations of the model from scratch, it forms the basis of the model implementation.
 
 # My Project
-
 ## Overview
 
 <p align="left">
