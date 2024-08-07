@@ -11,7 +11,7 @@ The project aims at performing noun chunking in a text sequence given its Part o
 
 #### 1. Noun Chunking Using POS Tags
 Chunking is a crucial process in Natural Language Processing (NLP) for extracting meaningful units from text that involves identifying and segmenting multi-token sequences, such as noun phrases, within sentences using Part-Of-Speech (POS) tags. 
-It involves labeling each word in a sentence with its corresponding part of speech, such as noun (NN), verb (VB), adjective (JJ), determiner (DT), etc.<br>
+It involves labeling each word in a sentence with its corresponding part of speech, such as noun (NN), verb (VB), adjective (JJ), determiner (DT), etc.<br><br>
 Once the words are tagged, chunking algorithms group sequences of words into chunks based on their POS tags. Noun phrase chunking specifically targets sequences of words that form noun phrases. For example sentence, a noun phrase chunker would identify and extract "The quick brown fox" and "the lazy dog" as noun phrases. This process helps in isolating and understanding the structure of noun phrases within sentences, facilitating further analysis and processing of the text.
 
 #### 2. Using RNNs for Noun Chunking
