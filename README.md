@@ -64,20 +64,17 @@ Contains the __handwritten derivations__ of the model from scratch, it forms the
   This is the architecture of the recurrent perceptron. A tag can be one of `[OT, NN, JJ, DT]` This is fed into the network as a 1 hot vector. The detailed inplementation can be found in <strong>models</strong> folder. The idea is to design an RNN classifier using the architure above.
 </p>
 
-<p style="text-align: left;">
-  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/der1.png" alt="Project Logo" style="float: left; margin-right: 10px; width: 300px; height: auto;" />
-  <strong>Title: Backpropagation Through Time</strong><br />
+<p align="left">
+  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/der1.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
+  <br>
+   <strong>Backpropagation Through Time derivation</strong><br />
   This is the derivation that forms the theoretical foundation of the <strong>BACKPROPAGATION THROUGH TIME</strong> algorithm implemented in this project.
 </p>
 
-
 <p align="left">
-  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/der1.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
-  This is the derivation that forms the theoritical foundation of __BACK PROPOGATION THROUGH TIME__ algorith implemented in this project.
-</p>
-
-<p align="left">
-  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/green_conditions.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
+  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/architecture.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
+  <br>
+   <strong>Filter table of deterministic scenarios</strong><br />
   Once the architecture is setup we analyse different conditions on the data to see how close a neural net model is to a deterministic model. The table shows how samples can be filtered on basis of human rules. The analysis is properly elaborated in the notebooks provided
 </p>
 
