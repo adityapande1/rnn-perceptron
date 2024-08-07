@@ -63,6 +63,13 @@ Contains the __handwritten derivations__ of the model from scratch, it forms the
   The detailed inplementation can be found in `models` folder. The idea is to design an RNN classifier using the architure above.
 </p>
 
+<p style="text-align: left;">
+  <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/der1.png" alt="Project Logo" style="float: left; margin-right: 10px; width: 300px; height: auto;" />
+  <strong>Title: Backpropagation Through Time</strong><br />
+  This is the derivation that forms the theoretical foundation of the <strong>BACKPROPAGATION THROUGH TIME</strong> algorithm implemented in this project.
+</p>
+
+
 <p align="left">
   <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/der1.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
   This is the derivation that forms the theoritical foundation of __BACK PROPOGATION THROUGH TIME__ algorith implemented in this project.
