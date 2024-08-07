@@ -59,8 +59,8 @@ Contains the __handwritten derivations__ of the model from scratch, it forms the
 
 <p align="left">
   <img src="https://github.com/adityapande1/rnn-perceptron/blob/main/media/images/architecture.png" alt="Project Logo" style="float: left; margin-right: 10px;" />
-  This is the architecture of the recurrent perceptron. A tag can be one of `[OT, NN, JJ, DT]` This is fed into the network as a 1 hot vector.
-  The detailed inplementation can be found in `models` folder. The idea is to design an RNN classifier using the architure above.
+  <br>
+  This is the architecture of the recurrent perceptron. A tag can be one of `[OT, NN, JJ, DT]` This is fed into the network as a 1 hot vector. The detailed inplementation can be found in <strong>models</strong> folder. The idea is to design an RNN classifier using the architure above.
 </p>
 
 <p style="text-align: left;">
