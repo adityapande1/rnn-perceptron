@@ -1,12 +1,11 @@
-# NOUN CHUNKING USING RNN PERCEPTRON
+# Noun Chunking Using RNN Perceptron
 
-### NOTE
+#### NOTE
 This project is done as a part of course assignment for<br>
  Course : __CS772: Deep Learning for Natural Language Processing__ <br>
  Instructor :  __Prof. Pushpak Bhattacharyya__ at __IIT Bombay__
 
 ## Description
-
 The project aims at performing noun chunking in a text sequence given its Part of Speech (POS) tags. The task is achieved using RNN Perceptron and Sigmoid models that are implemented from scratch.
 
 #### 1. Noun Chunking Using POS Tags
@@ -14,18 +13,18 @@ Chunking is a crucial process in Natural Language Processing (NLP) for extractin
 It involves labeling each word in a sentence with its corresponding part of speech, such as noun (NN), verb (VB), adjective (JJ), determiner (DT), etc.<br><br>
 Once the words are tagged, chunking algorithms group sequences of words into chunks based on their POS tags. Noun phrase chunking specifically targets sequences of words that form noun phrases. For example sentence, a noun phrase chunker would identify and extract "The quick brown fox" and "the lazy dog" as noun phrases. This process helps in isolating and understanding the structure of noun phrases within sentences, facilitating further analysis and processing of the text.
 
+
 #### 2. Using RNNs for Noun Chunking
 Recurrent Neural Networks (RNNs) are well-suited for sequential data and can be effectively used for tasks like POS tagging and chunking.__In this project the user is provided with POS tagged data and the model. The RNN takes the sequence of POS tags (and potentially the original words) as input and outputs chunk tags that indicate the boundaries of noun phrases.__
 
-_____________
+## Try the model [here](https://huggingface.co/spaces/vivek9/CS772_Assignment2)
+
 ## Some Cool Examples
 ### Example 1: Noun Chunking using model
 ![Cool Demo](https://github.com/adityapande1/rnn-perceptron/blob/main/media/gifs/one.gif)
 
 ### Example 2 : Noun Chunking using model
 ![Cool Demo](https://github.com/adityapande1/rnn-perceptron/blob/main/media/gifs/two.gif)
-
-## Try the model [here](https://huggingface.co/spaces/vivek9/CS772_Assignment2)
  
 ## Features
 -Implemenatation of Recurrent Neural Net Perceptron from scratch performing noun chunking
