@@ -1,7 +1,9 @@
 # NOUN CHUNKING USING RNN PERCEPTRON
 
 ### NOTE
-This project is done as a part of course assignment for the course __CS772: Deep Learning for Natural Language Processing__ taught by __Prof. Pushpak Bhattacharyya__ at __IIT Bombay__
+This project is done as a part of course assignment for the course<br>
+ Course : __CS772: Deep Learning for Natural Language Processing__ <br>
+ Instructor :  __Prof. Pushpak Bhattacharyya__ at __IIT Bombay__
 
 ## Description
 
