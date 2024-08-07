@@ -25,7 +25,7 @@ _____________
 ### Example 2 : Noun Chunking using model
 ![Cool Demo](https://github.com/adityapande1/rnn-perceptron/blob/main/media/gifs/two.gif)
 
-## Try the model here[(https://huggingface.co/spaces/vivek9/CS772_Assignment2)]
+## Try the model [here](https://huggingface.co/spaces/vivek9/CS772_Assignment2)
  
 ## Features
 -Implemenatation of Recurrent Neural Net Perceptron from scratch performing noun chunking
